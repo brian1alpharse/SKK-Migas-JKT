@@ -17,6 +17,8 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             if (i == a && i == b){
                 System.out.print("OKYES ");
+                a += constantThree;
+                b += constantFour;
             } else if (i == a){
                 System.out.print("OK ");
                 a += constantThree;
